@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                          // Converts TS to modern JS
+    "module": "CommonJS",                     // Node.js uses CommonJS module system
+    "rootDir": "./src",                       // Your TypeScript source code
+    "outDir": "./dist",                       // Compiled JavaScript goes here
+    "strict": true,                           // Enable all strict type checks
+    "esModuleInterop": true,                  // Allows import express from 'express'
+    "forceConsistentCasingInFileNames": true, // Avoid casing mistakes in import paths
+    "skipLibCheck": true                      // Speeds up compilation
+  },
+  "include": ["src"],                         // Only compile files inside src/
+  "exclude": ["node_modules"]                 // Ignore node_modules
+}
